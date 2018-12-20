@@ -31,7 +31,7 @@ def foreverLoop():
 
 	
 def recvall(socke, n):
-    # Helper function to recv n bytes or return None if EOF is hit
+    #AGREGASI DATA YANG DITERIMA BLUETOOTH
     datas = b''
     while len(datas) < n:
         packet = socke.recv(n - len(datas))
